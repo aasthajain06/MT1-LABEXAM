@@ -154,6 +154,6 @@ const server = http.createServer((req, res) => {
 });
 
 // Start server
-server.listen(3000, () => {
-  console.log("HTTP Server running at http://localhost:3000");
+server.listen(3001, () => {
+  console.log("HTTP Server running at http://localhost:3001");
 });
